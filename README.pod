@@ -1,0 +1,36 @@
+=head1 FEC PARSER
+
+Converting FEC contribution data from the COBOL format to CSV for loading into MySQL.
+
+=head2 VERSION
+
+version 0.1a (DEPRECIATED)
+
+=head2 SYNOPSIS
+
+FEC Data is in a stupid format. This converts it into a normalized CSV files for upload in MySQL.
+
+=head2 INSTALLATION
+
+1) Download the necessary files via git clone.
+
+2) Change a lot of the absolute file paths.
+
+*NOTE: Very quickly written a long while back, YMMV.
+
+=head2 DEPENDENCIES
+
+All should be available with Perl or CPAN.
+
+Must load Archive::Extract
+
+=head2 SUPPORT AND DOCUMENTATION
+
+There are none. Hastily written a long time ago.
+
+=head2 COPYRIGHT AND LICENCE
+
+Copyright (C) 2007,2008 Naveen Manivannan (Nash Research Group)
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
