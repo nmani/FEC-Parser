@@ -1,6 +1,6 @@
 =head1 FEC PARSER
 
-Converting FEC contribution data from the COBOL format to CSV for loading into MySQL.
+Converting political contribution data from the FEC(fec.gov)'s COBOL format to CSV for loading into MySQL.
 
 =head2 VERSION
 
@@ -8,7 +8,11 @@ version 0.1a (DEPRECIATED)
 
 =head2 SYNOPSIS
 
-FEC Data is in a stupid format. This converts it into a normalized CSV files for upload in MySQL.
+FEC Data is in a stupid format. This converts it into normalized CSV files for upload in MySQL.
+
+=head2 WINDOWS
+
+For them there Winderrrz users who like GUIs: https://sourceforge.net/projects/fectool/
 
 =head2 INSTALLATION
 
@@ -19,14 +23,14 @@ FEC Data is in a stupid format. This converts it into a normalized CSV files for
 *NOTE: Very quickly written a long while back, YMMV.
 
 =head2 DEPENDENCIES
-
+open
 All should be available with Perl or CPAN.
 
 Must load Archive::Extract
 
 =head2 SUPPORT AND DOCUMENTATION
 
-There are none. Hastily written a long time ago.
+No support since it's depreciated. Considering using OpenData (http://www.opensecrets.org/action/data.php).
 
 =head2 COPYRIGHT AND LICENCE
 
