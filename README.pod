@@ -1,18 +1,19 @@
 =head1 FEC PARSER
 
-Converting political contribution data from the FEC(fec.gov)'s COBOL format to CSV for loading into MySQL.
+Converting political contribution data from the FEC(fec.gov) COBOL format to CSV for loading into MySQL.
 
 =head2 VERSION
 
-version 0.1a (DEPRECIATED)
+version 0.1a (DEPRECIATED but being rewritten),
 
 =head2 SYNOPSIS
 
 FEC Data is in a stupid format. This converts it into normalized CSV files for upload in MySQL.
+L<Detailed Files|<a href="http://www.fec.gov/finance/disclosure/ftpdet.shtml">Detailed Files About Candidates, Parties and Other Committees</a>>
 
 =head2 WINDOWS
 
-For them there Winderrrz users who like GUIs: https://sourceforge.net/projects/fectool/
+For them there Windows users who like GUIs: https://sourceforge.net/projects/fectool/
 
 =head2 INSTALLATION
 
