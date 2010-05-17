@@ -9,7 +9,7 @@ version 0.1a (DEPRECATED).
 =head2 SYNOPSIS
 
 FEC Data is in a stupid format. This converts it into normalized CSV files for upload in MySQL.
-L<<a href="http://www.fec.gov/finance/disclosure/ftpdet.shtml">Detailed Files About Candidates, Parties and Other Committees</a>>
+Detailed Files About Candidates, Parties and Other Committees: http://www.fec.gov/finance/disclosure/ftpdet.shtml
 
 =head2 WINDOWS
 
@@ -34,7 +34,7 @@ The COBOL file turncates long names.
 
 =head2 SUPPORT AND DOCUMENTATION
 
-No support since it's depreciated. Considering using OpenData (http://www.opensecrets.org/action/data.php).
+No support since it's deprecated. Considering using OpenData (http://www.opensecrets.org/action/data.php).
 
 =head2 COPYRIGHT AND LICENCE
 
