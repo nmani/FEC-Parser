@@ -4,12 +4,12 @@ Converting political contribution data from the FEC(fec.gov) COBOL format to CSV
 
 =head2 VERSION
 
-version 0.1a (DEPRECIATED but being rewritten),
+version 0.1a (DEPRECATED).
 
 =head2 SYNOPSIS
 
 FEC Data is in a stupid format. This converts it into normalized CSV files for upload in MySQL.
-L<Detailed Files|<a href="http://www.fec.gov/finance/disclosure/ftpdet.shtml">Detailed Files About Candidates, Parties and Other Committees</a>>
+L<<a href="http://www.fec.gov/finance/disclosure/ftpdet.shtml">Detailed Files About Candidates, Parties and Other Committees</a>>
 
 =head2 WINDOWS
 
@@ -22,12 +22,15 @@ For them there Windows users who like GUIs: https://sourceforge.net/projects/fec
 2) Change a lot of the absolute file paths.
 
 *NOTE: Very quickly written a long while back, YMMV.
+**NOTE: Currently started new project to parse .fec files vs COBOL file!
 
 =head2 DEPENDENCIES
-open
-All should be available with Perl or CPAN.
 
 Must load Archive::Extract
+
+=head2 LIMITATIONS
+
+The COBOL file turncates long names.
 
 =head2 SUPPORT AND DOCUMENTATION
 
